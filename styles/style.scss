@@ -1,0 +1,68 @@
+$background:rgba(0, 0, 0, 0.98);
+$background_mix:rgba(29, 39, 38, 0.58); 
+$flex_display:flex;
+$justify-content-center:center;
+$align-item-center:center;
+$min_padding:25px;
+$color_text:rgb(255, 255, 255);
+$textSize:30px;
+$radius-border:10px;
+$center:center;
+$blue_color:rgb(170, 170, 255);
+$focus_text_color:rgb(151, 151, 217);
+
+
+*{
+    font-style:italic;
+}
+body{
+    margin:0;
+
+    background-color: rgb(247, 247, 178);
+}
+
+.box{
+    background-color: $background;
+    display: $flex_display;
+    justify-content: $justify-content-center;
+    padding: $min_padding;
+    align-items: $align-item-center;
+    color: $color_text;
+    font-size: $textSize;
+    border-radius: $radius-border;
+}
+.inner_box{
+    padding: $min_padding;
+    background-color:$background_mix;
+    border-radius:$radius-border ;
+}
+.inner_box h1{
+    text-align: $center;
+    background: url(../autmn.jpg);
+    background-repeat: no-repeat;
+    background-clip: text;
+    color: transparent;
+}
+input[type="text"]{
+    background-color:$background_mix ;
+}
+input[type="text"]:focus{
+    border-color: $blue_color;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    color: $focus_text_color;
+}
+#submit_btn{
+    display: flex;
+    justify-content: center;
+}
+.image { 
+    background-image: url('../autmn.jpg');
+    background-size: cover;
+    background: transparent !important;
+    padding: 20px;
+    background-clip: text;
+}
+
+
+
