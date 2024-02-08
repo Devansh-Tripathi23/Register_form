@@ -5,16 +5,13 @@ $justify-content-center:center;
 $align-item-center:center;
 $min_padding:25px;
 $color_text:rgb(255, 255, 255);
-$textSize:30px;
+$textSize:20px;
 $radius-border:10px;
 $center:center;
 $blue_color:rgb(170, 170, 255);
 $focus_text_color:rgb(151, 151, 217);
+$absolute:absolute;
 
-
-*{
-    font-style:italic;
-}
 body{
     margin:0;
 
@@ -38,10 +35,9 @@ body{
 }
 .inner_box h1{
     text-align: $center;
-    background: url(../autmn.jpg);
     background-repeat: no-repeat;
     background-clip: text;
-    color: transparent;
+    // color: transparent;
 }
 input[type="text"]{
     background-color:$background_mix ;
@@ -57,13 +53,12 @@ input[type="text"]:focus{
     justify-content: center;
 }
 .image { 
-    background-image: url('../autmn.jpg');
+    // background-image: url('../autmn.jpg');
     background-size: cover;
     background: transparent !important;
     padding: 20px;
     background-clip: text;
 }
-
 
 
 

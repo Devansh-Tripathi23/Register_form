@@ -37,7 +37,7 @@ require 'conn.php'
 <div class="container  box">
     <div class="row">
         <div class="col-md-6 image_box">
-            <img src="./dark.jpg" class="img-fluid" alt="Dark Image" style="width: 100%; height: 100%; object-fit: cover;">
+            <img src="./dark.jpg" class="img-fluid" alt="Dark Image" style="width: 100%; height: 100%; object-fit: cover;position:relative;">
         </div>
         
         <div class="col-md-6 inner_box">
