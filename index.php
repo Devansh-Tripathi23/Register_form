@@ -68,6 +68,9 @@ require 'conn.php'
                 <div id="submit_btn" class="mt-3">
                     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                 </div>
+                <div class="mt-3">
+                        <a href="./fetch.php" class="btn btn-secondary">Fetch Data</a>
+                    </div>
             </form>
         </div>
     </div>
