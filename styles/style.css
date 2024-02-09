@@ -44,4 +44,8 @@ input[type=text]:focus {
   padding: 20px;
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+body {
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
