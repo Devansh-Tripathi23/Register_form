@@ -48,4 +48,8 @@ input[type=text]:focus {
 
 body {
   padding: 20px;
+}
+
+.alert {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

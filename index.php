@@ -1,5 +1,5 @@
 <?php
-require 'conn.php'
+require './conn.php'
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,6 @@ require 'conn.php'
 
 <body>
     <?php
-    // $name = $email = $roll_no = $contact ='';
     if(isset($_POST['submit'])){
         $name= $_POST['name'];
         $email= $_POST['email'];
@@ -26,7 +25,7 @@ require 'conn.php'
         $result = $conn->query($sql);
 
         if($result){
-            echo "Data inserted successfully";
+            echo "<div class='alert alert-danger'>Data Inserted Successfully</div>";
         }else{
             echo "Error: ". $sql. "<br>". mysqli_error($conn);
         }
